@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blog {
+    display: inline-block;
+    width:20rem;
+    margin: 0 1rem;
+}
+
+.blog__image-container {
+    height: 20rem;
+    width:20rem;
+}
+
+.blog__image-container img {
+    height:100%;
+    width:100%
+}
+
+.blog h2 {
+   font-weight: 800; 
+}
