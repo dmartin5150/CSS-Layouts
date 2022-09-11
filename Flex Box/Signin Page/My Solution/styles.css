@@ -1,0 +1,89 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    font-size:10px;
+}
+
+.signin-page {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45rem;
+    height: 40rem;
+    margin:7rem auto;
+    text-align: center;
+    font-size:1.3rem;
+}
+
+.signin-page__title {
+    font-size:3rem;
+    font-weight:600;
+}
+
+.signin-page input {
+    display:inline-block;
+    width:100%;
+    font:inherit;
+    padding:1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+.signin-page_submit {
+    display:inline-block;
+    width:100%;
+    font:inherit;
+    padding: 1rem 2rem;
+    background-color:rgb(98, 96, 219);
+    color:white;
+    border-radius: 0.5rem;
+    border:transparent;
+
+}
+
+.signin-page__options {
+    font-size:1.5rem;
+}
+
+.signin-page__signin-options-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.signin-page__signin-options-container button {
+    font:inherit;
+    padding:1rem 4.5rem;
+    color: white;
+    border-radius:0.5rem;
+    border:transparent;
+    font-size:1.5rem;
+}
+
+.signin-page__signin-options--facebook {
+    background-color: rgb(58, 58, 248);
+}
+
+.signin-page__signin-options--twitter {
+    background-color:rgb(73, 189, 189);
+}
+
+.signin-page__signin-options--google {
+    background-color: rgb(255, 103, 80);
+}
+
+
+.signin-page__forgot-password {
+    font-size: 1.5rem;;
+}
+
+.signin-page__signin {
+    font-size:1.5rem;
+}

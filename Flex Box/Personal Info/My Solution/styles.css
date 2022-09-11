@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  font-size: 10px;
+}
+
+.personal_info_container {
+  display: flex;
+  justify-content: space-evenly;
+  height:20rem;
+  background-color: rgb(231, 196, 196);
+  padding:2rem;
+  margin-top:25rem;
+}
+
+.personal_info_card {
+  display: flex;
+  align-items: center;
+
+}
+
+.personal_info_card__image-container {
+    display:flex;
+    justify-content: center;
+    height:100%;
+    width:20rem;
+    border-radius:50%;
+    overflow:hidden;
+    object-fit:cover;
+
+}
+
+
+.personal_info_card_image {
+    height:100%;
+    width:100%;
+    text-align: center;
+
+}
+
+.personal_info_card__info-container {
+    margin-left:2rem;
+    font-size: 1.5rem;
+}
+
+.personal_info_card__name {
+    margin-bottom:1rem;
+}
+
+.personal_info_card__title {
+    color:rgb(121, 118, 118);
+}
+
